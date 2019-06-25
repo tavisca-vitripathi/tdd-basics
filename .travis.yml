@@ -1,0 +1,11 @@
+language: csharp
+solution: bowling-ball.sln
+dotnet: 2.1.502
+install:
+    - dotnet restore
+    - nuget restore bowling-ball.sln
+    - nuget install xunit.runners -Version 1.9.1 -OutputDirectory testrunner
+script:
+    - dotnet build
+    - dotnet test BowlingBall.Tests/BowlingBall.Tests.csproj
+
