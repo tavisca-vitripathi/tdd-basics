@@ -1,4 +1,4 @@
-# Test Driven Development kata with Bowling Game
+# Test Driven Development kata with Bowling Game ![Build Status](https://travis-ci.org/tavisca-bootcamp/tdd-basics.svg?branch=master)
 
 The idea of this repository is to contain a minimal setup for executing the [Uncle Bob][1] famous [Bowling kata][2] in C# using [xunit][3] framework.
 
